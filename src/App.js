@@ -7,7 +7,7 @@ export default class App extends Component {
         super();
     this.state = {
         recipes:[],
-        url:"http://localhost:8000/data",
+        url:"https://api.myjson.com/bins/h0ovm",
         pageIndex:0,
         recipeId:0
     };
